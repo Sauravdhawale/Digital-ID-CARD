@@ -1,5 +1,8 @@
 🪪 Digital ID Card Generator (CSV-Based with Photo Support)
-A simple and responsive PHP-based digital employee ID card system that reads employee data from a .csv file and shows profile pictures from a folder. Easily scalable and customizable for internal use, with optional QR code functionality and Google Sheets support.
+A simple and responsive PHP-based digital employee ID card system that 
+reads employee data froma .csv file and shows profile pictures from a folder. 
+Easily scalable and customizable for internal use, with optional 
+QR code functionality and Google Sheets support.
 
 📦 Project Structure
 /DIGITAL ID CARD/
