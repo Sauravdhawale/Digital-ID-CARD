@@ -4,8 +4,8 @@ use LDAP\Result;
 
 $show_detail = FALSE;
 
-// Google Sheets CSV URL (Make sure your Google Sheet is public)
-$googleSheetUrl = "https://docs.google.csv";
+
+$googleSheetUrl = "";// Google Sheets CSV URL (Make sure your Google Sheet is public
 
 if (isset($_GET['rid'])) {
     $emp_id = $_GET['rid'];

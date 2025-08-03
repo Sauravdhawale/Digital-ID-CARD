@@ -42,7 +42,7 @@ Access in browser:
 
 arduino
 
-http://localhost/digital-id-card//index.php?rid=AT00046
+http://localhost/digital-id-card//index.php?rid=AT000..
 ✅ Future Enhancements
 QR Code generation for each employee ID
 Google Sheets integration for live data
