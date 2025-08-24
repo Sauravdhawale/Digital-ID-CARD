@@ -12,7 +12,7 @@ QR code functionality and Google Sheets support.
 ├── /Employee photo/           # Folder containing employee profile photos
 └── README.md                  # Project documentation
 📋 Features
-Digital ID card with clean and modern layout
+Digital ID card with clean and modern layout.
 
 Employee data read from a .csv file
 
