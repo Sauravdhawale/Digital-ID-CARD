@@ -1,11 +1,8 @@
 <?php
 
 use LDAP\Result;
-
 $show_detail = FALSE;
-
-// Google Sheets CSV URL (Make sure your Google Sheet is public)
-$googleSheetUrl = "https://docs.google.csv";
+$googleSheetUrl = "";// Google Sheets CSV URL (Make sure your Google Sheet is public
 
 if (isset($_GET['rid'])) {
     $emp_id = $_GET['rid'];
@@ -29,8 +26,8 @@ if (isset($_GET['rid'])) {
         $name = $result[2] ?? "";
         $designation = $result[3] ?? "";
         $dob = $result[4] ?? "";
-        // $phone_number = $result[5] ?? "";
-        // $email = $result[6] ?? "";
+        $phone_number = $result[5] ?? "";
+        $email = $result[6] ?? "";
         $blood_group = $result[7] ?? "";
         $emergency_number = $result[8] ?? "";
         $avatar = (!empty($result[9])) ? str_replace("file/d/", "uc?export=view&id=", str_replace("/view?usp=sharing", "", $result[9])) : "https://drive.google.com/uc?export=view&id=1ikFY1TxHR1Ko6umytq8dc2UPO-3pd9JW";
@@ -44,7 +41,7 @@ if (isset($_GET['rid'])) {
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico"> //upload a your ico
 
     <style>
         .inf-content { border: 1px solid #DDDDDD; border-radius: 10px; box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3); }
@@ -68,8 +65,8 @@ if (isset($_GET['rid'])) {
                                     <tr><td><strong>Name</strong></td><td class="text-primary"><?php echo $name; ?></td></tr>
                                     <tr><td><strong>Designation</strong></td><td class="text-primary"><?php echo $designation; ?></td></tr>
                                     <tr><td><strong>DOB</strong></td><td class="text-primary"><?php echo $dob; ?></td></tr>
-                                    <!--<tr><td><strong>Phone Number</strong></td><td class="text-primary"><?php echo $phone_number; ?></td></tr>-->
-                                    <!--<tr><td><strong>Email ID</strong></td><td class="text-primary"><?php echo $email; ?></td></tr>-->
+                                    <tr><td><strong>Phone Number</strong></td><td class="text-primary"><?php echo $phone_number; ?></td></tr>
+                                    <tr><td><strong>Email ID</strong></td><td class="text-primary"><?php echo $email; ?></td></tr>
                                     <tr><td><strong>Blood Group</strong></td><td class="text-primary"><?php echo $blood_group; ?></td></tr>
                                     <tr><td><strong>Emergency Number</strong></td><td class="text-primary"><?php echo $emergency_number; ?></td></tr>
                                 </tbody>
