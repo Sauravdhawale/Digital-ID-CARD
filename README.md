@@ -18,7 +18,6 @@ Employee data read from a .csv file
 
 Profile photo display (image name matches employee ID or name)
 
-
 Optional QR Code for verification
 
 Easy to deploy on any PHP-compatible server
@@ -43,7 +42,7 @@ Access in browser:
 
 arduino
 
-http://localhost/digital-id-card//index.php?rid=AT000..
+http://localhost/digital-id-card//index.php?rid=AT00046
 ✅ Future Enhancements
 QR Code generation for each employee ID
 Google Sheets integration for live data
