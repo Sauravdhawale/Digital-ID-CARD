@@ -18,6 +18,7 @@ Employee data read from a .csv file
 
 Profile photo display (image name matches employee ID or name)
 
+
 Optional QR Code for verification
 
 Easy to deploy on any PHP-compatible server
