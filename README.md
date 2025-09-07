@@ -41,11 +41,11 @@ Move to your XAMPP or PHP server folder
 Access in browser:
 
 arduino
-<!-- 
+
 http://localhost/digital-id-card//index.php?rid=AT00046
 ✅ Future Enhancements
 QR Code generation for each employee ID
 Google Sheets integration for live data
 Admin panel for uploading photos & CSVs
-<!-- Download as PDF or print support --> -->
+Download as PDF or print support
 
