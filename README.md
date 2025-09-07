@@ -29,7 +29,7 @@ Sample Output
 📥 CSV Format (Required Columns)
 Your DIGITAL ID CARD.csv should follow this format:
 
-Employee ID,Name,Designation,DOB,Blood Group,Emergency Number,Photo
+<!-- Employee ID,Name,Designation,DOB,Blood Group,Emergency Number,Photo
 AT00177,Saurav Dhawale,Digital Marketing,22-07-2003,O-,8668514452,saurav.jpg
 Photo should match the image filename in the /Employee photo/ folder.
 
@@ -47,5 +47,5 @@ http://localhost/digital-id-card//index.php?rid=AT00046
 QR Code generation for each employee ID
 Google Sheets integration for live data
 Admin panel for uploading photos & CSVs
-Download as PDF or print support
+Download as PDF or print support -->
 
